@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="register.css">
+</head>
+<body>
+  
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">::  Speaker</a>
+            <div class="collapse navbar-collapse" id="navbarText">
+              
+                <ul class="navbar-nav mx-auto" >
+                  <li class="nav-item " >
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+              
+              
+             
+            </div>
+          </nav>
+         
+
+
+
+   <div class="grid-container">
+<div class="grid-item">
+   <h1>Early Bird Rates and Registration</h1>
+   <h3>Registrations provide access to all conference sessions, including those in the ALICE special track. Please note that the student rate is only for full-time students (proof of status required). The Early Bird Rates will be available through February 28, 2022. Save up to $100 by registering early!
+
+      Questions? Please feel free to contact us at <a href="info@learningideasconf.org.">info@learningideasconf.org.</a></h3><br><br>
+      <h3>RegisterCancellation Policy:</h3><br>
+
+         <p>For cancellations through January 31, 2022, a refund of 75% of the fee will be issued.
+         </p><br>
+        <p>For cancellations between February 1 and March 31, 2022, a refund of 50% of the fee will be issued.</p> <br>
+          
+         <p>For cancellations between April 1 and May 7, 2022, a refund of 25% of the fee will be issued.</p><br>
+          
+         <p>For cancellations after May 7, 2022, no refund will be issued.  </p><br>
+         
+         Registrations may be transferred to someone else; if you need to do this, please contact us at info@learningideasconf.org for details.
+</div>
+<div class="grid-item">
+   
+      <div class="form">
+         <h2>Participant from $495.00</h2><br>
+         <label>Name:</label>
+<input id="name"type="text"><br>
+<label>online</label>
+<input  name="typeofAttendance" value="online"type="radio">
+<label>In-person</label>
+<input type="radio" name="typeofAttendance" value="In-person"><br>
+<label>e-mail</label>
+         <input type=email name=email><br>
+<button type="submit" class="btn btn-dark btn-sm" onclick="display()">Submit</button><br>
+<span id="out"></span>
+      </div>
+
+      <div class="form">
+         <h2>Speaker from $395.00</h2><br>
+         <label>Name:</label>
+         <input id="Sname"type="text"><br>
+         <label>online</label>
+         <input  name="typeofAttendance" value="online"type="radio">
+         <label>In-person</label>
+         <input type="radio" name="typeofAttendance" value="In-person"><br>
+         <label>e-mail</label>
+         <input type=email name=email><br>
+<button type="submit" class="btn btn-dark btn-sm" onclick="displayy()">Submit</button><br>
+<span id="out1"></span>
+      </div>
+ 
+</div>
+   </div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
